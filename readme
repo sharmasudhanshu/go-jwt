@@ -1,0 +1,6 @@
+git clone  https://github.com/sharmasudhanshu/go-jwt.git
+cd go-jwt
+
+go run *.go  &
+
+curl -X POST localhost:8080/login -d "username=jon&password=password"  ### change port number as per the  value
